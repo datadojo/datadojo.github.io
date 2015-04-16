@@ -1,7 +1,11 @@
+#!/bin/bash
+
 if hash markdown 2>/dev/null; then
 
     for f in *.md; do
-        markdown $f > "${f%.md}.html"
+        if [[ $f != "README.md" ]]; then
+            markdown $f > "${f%.md}.html"
+        fi
     done
 
 else
