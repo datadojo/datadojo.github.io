@@ -1,25 +1,25 @@
-<h1>FAQ</h1>
+<h1 id="faq">FAQ</h1>
 
 <p>Most common problems from Data Dojo study group.</p>
 
-<h2>Run pyspark with ipython:</h2>
+<h2 id="run-pyspark-with-ipython">Run pyspark with ipython:</h2>
 
 <p><code>
 IPYTHON=1 ./bin/pyspark
 </code></p>
 
-<h2>Windows paths:</h2>
+<h2 id="windows-paths">Windows paths:</h2>
 
 <p>Directories are seperated by <code>\\</code>, not <code>\</code>.</p>
 
-<h2>Switch off verbose logs</h2>
+<h2 id="switch-off-verbose-logs">Switch off verbose logs</h2>
 
 <ul>
-<li>In <code>spark/conf</code> directory copy or rename <code>log4j.properties.template</code> to <code>log4j.properties</code></li>
-<li>Edit <code>log4j.properties</code> and on line 2 change <code>log4j.rootCategory=INFO, console</code> to <code>log4j.rootCategory=WARN, console</code></li>
+  <li>In <code>spark/conf</code> directory copy or rename <code>log4j.properties.template</code> to <code>log4j.properties</code></li>
+  <li>Edit <code>log4j.properties</code> and on line 2 change <code>log4j.rootCategory=INFO, console</code> to <code>log4j.rootCategory=WARN, console</code></li>
 </ul>
 
-<h2>Run cluster with more memory</h2>
+<h2 id="run-cluster-with-more-memory">Run cluster with more memory</h2>
 
 <p>To fix issue with: <code>java.lang.OutOfMemoryError</code> run spark with <code>--driver-memory</code> argument:</p>
 
