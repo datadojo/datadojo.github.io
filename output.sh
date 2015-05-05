@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if hash github-marup 2>/dev/null; then
+if hash github-markup 2>/dev/null; then
 
     for f in *.md; do
         if [[ $f != "README.md" ]]; then
