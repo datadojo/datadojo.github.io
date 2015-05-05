@@ -7,7 +7,7 @@
 * [Neural Networks for Machine Learning (Octave)](https://www.coursera.org/course/neuralnets)
 * [Real-Time Analytics (Apache Storm)](https://www.udacity.com/course/real-time-analytics-with-apache-storm--ud381)
 * [Data Science Specialization (R)](https://www.coursera.org/specialization/jhudatascience/1)
-* [The Data Scientist’s Toolbox](https://www.coursera.org/course/datascitoolbox)
+    * [The Data Scientist’s Toolbox](https://www.coursera.org/course/datascitoolbox)
     * [R Programming](https://www.coursera.org/course/rprog)
     * [Getting and Cleaning Data](https://www.coursera.org/course/getdata)
     * [Exploratory Data Analysis](https://www.coursera.org/course/exdata)
@@ -20,3 +20,4 @@
 # Materials
 
 * [AmpCamp - big data bootcamp (Apache Spark)](http://ampcamp.berkeley.edu/)
+* [Machine Learning - list of articles (Python)](https://docs.google.com/document/d/1YN6BVdReNAYc8B0fjQ84yzDflqmeEPj7S0Xc-9_26R0/preview?sle=true)
